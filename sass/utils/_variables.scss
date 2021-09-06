@@ -1,0 +1,109 @@
+
+// переменные цвета
+
+$primaryTextColor:#757575;
+$titleTextColor:#212121;
+$accentColor: #FFFFFF;
+$logoColor: #2196F3;
+$bodyBackgroundColor: #FFFFFF;
+$logoBackgroundColor: #2196F3;
+$sectionBackground: #2F303A;
+$buttonBackColor: #F5F4FA;
+$accentFooterColor: #FFFFFF99;
+$logoBackgroundClick: #188CE8;
+
+
+// :root {
+//    --primary-text-color: #757575;
+//    --title-text-color: #212121;
+//    --accent-color: #FFFFFF;
+//    --logo-color: #2196F3;
+//    --body-background-color: #FFFFFF;
+//    --logo-background-color: #2196F3;
+//    --section-background: #2F303A;
+//    --button-back-color: #F5F4FA;
+//    --accent-footer-color: #FFFFFF99;
+//    --logo-background-click: #188CE8;
+// }
+
+
+// переменные шрифтов и свойств
+
+$fontFamilyRoboto: Roboto, sans-serif;
+$fontFamilyRaleway: Raleway, sans-serif;
+
+$fontSize12: 12px;
+$fontSize14: 14px;
+$fontSize16: 16px;
+$fontSize18: 18px;
+$fontSize20: 20px;
+$fontSize26: 26px;
+$fontSize36: 36px;
+$fontSize44: 44px;
+
+$fontWeight400: 400;
+$fontWeight500: 500;
+$fontWeight600: 600;
+$fontWeight700: 700;
+$fontWeight900: 900;
+
+$letterSpacing01: 0.01em;
+$letterSpacing02: 0.02em;
+$letterSpacing03: 0.03em;
+$letterSpacing06: 0.06em;
+
+$lineHeight114: 1.14;
+$lineHeight117: 1.17;
+$lineHeight119: 1.19;
+$lineHeight136: 1.36;
+$lineHeight156: 1.56;
+$lineHeight162: 1.62;
+$lineHeight171: 1.71;
+$lineHeight187: 1.87;
+$lineHeight200: 2;
+
+// plaseholder
+
+%std-modal{
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+}
+
+%title-footer{
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.01em;
+}
+
+%button-menu{
+   font-weight: 500;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
+}
+
+%title-section{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17; 
+}
+
+%sitenav-text{
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.17;
+}
+
+/* Обнуление margin и padding*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+   margin: 0px;
+   padding: 0px;
+}

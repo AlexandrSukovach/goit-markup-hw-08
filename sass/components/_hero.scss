@@ -1,0 +1,34 @@
+/* --------------hero------------- */
+.hero__content {
+   max-width: 1600px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/hero-one.jpg");
+   background-color: $sectionBackground;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+
+}
+
+.hero__title {
+   color: $accentColor;
+   font-weight: $fontWeight900;
+   font-size: $fontSize44;
+   line-height: $lineHeight136;
+   letter-spacing: $letterSpacing06;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+
+.button__standart--hero {
+   padding-left: 31px;
+   padding-right: 31px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus{background-color: $logoBackgroundClick;}
+}

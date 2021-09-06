@@ -1,0 +1,20 @@
+/*------------ work--------------- */
+.work__title {
+   color: $titleTextColor;
+   @extend %title-section;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.work__images {
+   display: flex;
+}
+
+.work__card {
+   width: 370px;
+   position: relative;
+   &:not(:last-child){ margin-right: 30px;}
+}
+
+
+
