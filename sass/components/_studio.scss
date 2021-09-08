@@ -1,4 +1,5 @@
-/*------------HEADER----------- */
+
+   /*------------HEADER----------- */
 /* -----------studio----------- */
 .page-header {
    border-bottom: 1px solid #ECECEC
@@ -6,9 +7,11 @@
 
 .page-header__comtent {
    display: flex;
+   align-items: center;
 }
 
 .logo {
+   display: block;
    color: $logoColor;
    font-family: $fontFamilyRaleway;
    font-weight: $fontWeight700;
@@ -24,4 +27,6 @@
 .page-header__nav {
    display: flex;
    align-items: center;
+   width: 100%;
 }
+

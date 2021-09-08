@@ -1,14 +1,13 @@
-
-   /* ---------------footer------------ */
+/* ---------------footer------------ */
 footer {
    background-color: $sectionBackground;
 }
 
 .footer__content {
    display: flex;
-   align-items: baseline;
+   flex-direction: column;
+   align-items: center;
    padding-top: 60px;
-   padding-left: 15px;
    padding-bottom: 60px;
 }
 
@@ -23,15 +22,24 @@ footer {
 }
 
 .footer__address {
-   margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer__location {
+
    color: $accentColor;
    font-size: $fontSize14;
    font-style: normal;
    line-height: $lineHeight171;
    margin-top: 20px;
+}
+
+.footer__list{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .footer__map {
@@ -43,6 +51,10 @@ footer {
 
 .footer__contact:not(:last-child) {
    margin-bottom: 9px;
+}
+
+.footer__social{
+   text-align: center;
 }
 
 .footer__click {
@@ -61,7 +73,7 @@ footer {
 
 .footer__site {
    display: flex;
-   // justify-content: center;
+  
 }
 
 .icon__social--gray {
@@ -80,17 +92,19 @@ footer {
    fill: currentColor;
 }
 
-.footer__mail {
-   margin-left: auto;
+.footer__mail{
+   width: 100%;
 }
 
 .footer__mailing {
    display: block;
+   text-align: center;
    color: $accentColor;
    @extend %std-modal;
    text-transform: uppercase;
    margin-bottom: 20px;
    cursor: pointer;
+   
 }
 
 .button__standart--footer {
@@ -98,19 +112,23 @@ footer {
    justify-content: center;
    align-items: center;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   margin-left: 12px;
+  
 }
 
 .footer__thumbnail {
    margin-left: 10px;
 }
 
-.footer__button {
+.footer__button{
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 450px;
 }
 
 .footer__input {
-   width: 358px;
+   display: block;
+   width: 100%;
    height: 50px;
    background-color: $sectionBackground;
    color: $accentColor;
@@ -123,8 +141,7 @@ footer {
       border-color: rgba(255, 255, 255, 0.3);
       color: $accentFooterColor;}
    &::placeholder{color: $accentFooterColor;}
+   margin-bottom: 10px;
 }
-
-
 
 

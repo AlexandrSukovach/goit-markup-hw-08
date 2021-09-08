@@ -1,7 +1,6 @@
-
-   /* --------------hero------------- */
+/* --------------hero------------- */
 .hero__content {
-   max-width: 1600px;
+   max-width: 480px;
    margin-left: auto;
    margin-right: auto;
    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -13,14 +12,16 @@
    text-align: center;
    padding-top: 200px;
    padding-bottom: 200px;
+   padding-left: 15px;
+   padding-right: 15px;
 
 }
 
 .hero__title {
    color: $accentColor;
    font-weight: $fontWeight900;
-   font-size: $fontSize44;
-   line-height: $lineHeight136;
+   font-size: $fontSize26;
+   line-height: $lineHeight162;
    letter-spacing: $letterSpacing06;
    text-transform: uppercase;
    margin-bottom: 30px;

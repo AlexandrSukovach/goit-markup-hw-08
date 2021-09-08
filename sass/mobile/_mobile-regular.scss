@@ -1,5 +1,4 @@
-
-   /* -----------regular customers------- */
+  /* -----------regular customers------- */
 .gallery-custom {
    text-align: center;
 }
@@ -13,12 +12,15 @@
    text-align: center;
 }
 .reg-custom__gallery {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.reg-custom__client:not(:last-child) {
-   margin-right: 30px;
+.reg-custom__client{
+   max-width: 210px;
+   max-height: 92px;
+  
 }
 
 .reg-custom__link{

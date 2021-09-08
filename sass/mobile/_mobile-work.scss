@@ -1,5 +1,7 @@
-
-   /*------------ work--------------- */
+/*------------ work--------------- */
+.work{
+   display: none;
+}
 .work__title {
    color: $titleTextColor;
    @extend %title-section;
@@ -8,7 +10,7 @@
 }
 
 .work__images {
-   display: flex;
+
 }
 
 .work__card {
@@ -16,8 +18,3 @@
    position: relative;
    &:not(:last-child){ margin-right: 30px;}
 }
-
-
-
-
-

@@ -1,0 +1,30 @@
+/*------------ declaration--------- */
+.declaration {
+   padding-bottom: 0px;
+}
+
+.declaration__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.declaration__item {
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 480px;
+   height: 120px;
+   background-color: $buttonBackColor;
+   border-radius: 4px;
+   margin-bottom: 30px;
+}
+
+.declaration__logo {
+   max-width: 480px;
+  
+}
+.declaration__title{
+   text-align: center;
+}
+

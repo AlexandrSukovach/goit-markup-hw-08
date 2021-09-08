@@ -1,6 +1,5 @@
-/* -------button-menu------------- */
 
-.portfolio__button {
+   .portfolio__button {
       color: $titleTextColor;
       background-color: $buttonBackColor;
       @extend %button-menu;
@@ -19,6 +18,10 @@
       box-shadow: 0px 3px 2px 0px #00000014;
       box-shadow: 0px 3px 1px 0px #0000001A;}
 }
+
+
+/* -------button-menu------------- */
+
 
 
 
