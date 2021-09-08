@@ -1,6 +1,9 @@
 /*------------ work--------------- */
 .work{
    display: none;
+   @media screen and (min-width: 1200px){
+      display:flex;
+   }
 }
 .work__title {
    color: $titleTextColor;
@@ -10,7 +13,9 @@
 }
 
 .work__images {
-
+   @media screen and (min-width: 1200px){
+      display:flex;
+   }
 }
 
 .work__card {

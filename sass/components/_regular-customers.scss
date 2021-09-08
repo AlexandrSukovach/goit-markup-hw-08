@@ -4,13 +4,12 @@
    text-align: center;
 }
 
-.reg-custom__title {
-   margin-bottom: 50px;
-}
+
 .reg-custom__title {
    color: $titleTextColor;
    @extend %title-section;
    text-align: center;
+   margin-bottom: 50px;
 }
 .reg-custom__gallery {
    display: flex;

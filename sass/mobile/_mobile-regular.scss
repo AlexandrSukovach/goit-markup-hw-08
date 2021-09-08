@@ -3,25 +3,40 @@
    text-align: center;
 }
 
+
 .reg-custom__title {
-   margin-bottom: 50px;
-}
-.reg-custom__title {
+   text-align: center;
    color: $titleTextColor;
    @extend %title-section;
-   text-align: center;
+   margin-bottom: 50px;
 }
 .reg-custom__gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+   display: flex;
+   @media screen and (max-width: 768px){
+   flex-wrap: wrap;
+   justify-content: center;
+   }
+   @media screen and (min-width: 1200px){
+   flex-wrap: wrap;
+   justify-content: center;
+}
 }
 
 .reg-custom__client{
+   @media screen and (max-width: 768px){
    max-width: 210px;
    max-height: 92px;
-  
+   }
+
 }
+
+.reg-custom__client:not(:last-child) {
+   @media screen and (min-width: 1200px){
+   margin-right: 30px;
+}
+}
+
+
 
 .reg-custom__link{
    display: flex;
