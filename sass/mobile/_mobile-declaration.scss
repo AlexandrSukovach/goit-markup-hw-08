@@ -1,6 +1,9 @@
 /*------------ declaration--------- */
 .declaration {
+   @media screen and (min-width: 1200px) {
    padding-bottom: 0px;
+   }
+   
 }
 
 .declaration__list {
@@ -32,13 +35,13 @@
 }
 
 .declaration__logo {
-  
+   &:not(:last-child){margin-bottom: 30px;}
    @media screen and (min-width: 1200px) {
-      
       width: 270px;
       &:not(:last-child){margin-right: 30px;}
    }
 }
+
 .declaration__title{
    @media screen and (max-width: 768px) {
       text-align: center;
