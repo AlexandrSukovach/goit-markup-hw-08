@@ -329,8 +329,6 @@ button {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .hero__title {
@@ -341,6 +339,14 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+  }
 }
 
 .button__standart--hero {
@@ -734,10 +740,6 @@ button {
     display: -ms-flexbox;
     display: flex;
   }
-}
-
-.declaration__logo:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
