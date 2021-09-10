@@ -166,8 +166,8 @@ color: $logoColor;
 .burger__media{
    display: flex;
    justify-content: flex-start;
-    flex-wrap: wrap;
-  
+   //  flex-wrap: wrap;
+   width: 360px;
 }
 
 .burger__logo{
