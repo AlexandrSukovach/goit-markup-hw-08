@@ -176,8 +176,8 @@
          </path>
       </symbol>
       <symbol id="icon-Line-3" viewBox="0 0 1 32">
-         <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.4545"
-            d="M0.727 0v32"></path>
+         <path fill="#212121" style="fill: var(--color1, #212121)" stroke-linejoin="miter" stroke-linecap="butt"
+            stroke-miterlimit="4" stroke-width="1.4545" d="M0.727 0v32"></path>
       </symbol>
       <symbol id="icon-close_40px" viewBox="0 0 32 32">
          <path

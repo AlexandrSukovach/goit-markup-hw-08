@@ -1,13 +1,17 @@
  /* ----------BODY------------- */
 
- body {
+body {
    background-color: $bodyBackgroundColor;
    color: $primaryTextColor;
    font-family: $fontFamilyRoboto;
    font-weight: $fontWeight400;
    letter-spacing: $letterSpacing03;
+  
 }
 
+body.burger-open{
+overflow: hidden;
+}
 
 .container {
    margin-left: auto;

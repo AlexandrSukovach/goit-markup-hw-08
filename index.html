@@ -24,7 +24,7 @@
    <!-- HEADER-studio-sitenav -->
 
    <header class="page-header">
-      <div class="page-header__comtent container">
+      <div class="page-header__comtent">
          <nav class="page-header__nav">
             <a href="" class="logo">Web<span class="logo__text">Studio</span></a>
             <div class="page-header__box">
@@ -49,8 +49,73 @@
                </div>
             </div>
          </nav>
+         <div>
+            <button class="button__stand--burger" data-burger-open>
+               <svg width="40" height="40">
+                  <use href="./images/icons.svg#icon-menu_40px"></use>
+               </svg>
+            </button>
+         </div>
+         <!-- mobil-burger -->
+
+
+
+      </div>
+
+      <div class="backdrop__burger is-hiden" data-burger>
+         <div class="burger__wind">
+            <div class="burger__close">
+               <button type="button" class="btn-burger" data-burger-close>
+                  <svg width="40" height="40" class="btn-burger__icon">
+                     <use href="./images/icons.svg#icon-close_40px"></use>
+                  </svg>
+               </button>
+            </div>
+            <div class="burger__link">
+               <div class="burger__nav">
+                  <ul class="burger__site list">
+                     <li class="burger__item"><a href="" class="burger__click site__current">Студия</a></li>
+                     <li class="burger__item"><a href="./portfolio.html" class="burger__click">Портфолио</a></li>
+                     <li class="burger__item"><a href="" class="burger__click">Контакты</a></li>
+               </div>
+               <div class="burger__contact">
+                  <div class="burger__tell">
+                     <ul class="burger__auth list">
+                        <li class="burger__meta"><a href="tel:+380961111111" class="meta__tell">+38 096 111 11 11</a>
+                        </li>
+                        <li class="burger__meta"><a href="mailto:info@devstudio.com"
+                              class="meta__maill">info@devstudio.com</a></li>
+                     </ul>
+                  </div>
+                  <div class="burger__social">
+                     <ul class="burger__media list">
+                        <li class="burger__logo">
+                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Instagram</a>
+                           <p class="media"></p>
+                        </li>
+
+                        <li class="burger__logo">
+                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Twitter</a>
+                           <p class="media"></p>
+                        </li>
+
+                        <li class="burger__logo">
+                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Facebook</a>
+                           <p class="media"></p>
+                        </li>
+
+                        <li class="burger__logo">
+                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                        </li>
+                     </ul>
+                  </div>
+
+               </div>
+            </div>
+         </div>
       </div>
    </header>
+
 
    <main>
 
@@ -341,6 +406,8 @@
          </div>
       </section>
 
+
+
       <!-- modal -->
 
       <div class="backdrop is-hidden" data-modal>
@@ -488,6 +555,7 @@
       </div>
    </footer>
    <script src="./js/modal.js"></script>
+   <script src="./js/mobil-burger.js"></script>
 
 </body>
 
