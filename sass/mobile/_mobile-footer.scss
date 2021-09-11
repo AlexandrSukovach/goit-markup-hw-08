@@ -62,6 +62,7 @@ footer {
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
    display: flex;
@@ -107,6 +108,7 @@ footer {
 .footer__social{
    @media screen and (max-width: 767px){
    text-align: center;
+   margin-bottom: 60px;
          }
    @media screen and (min-width: 768px) and (max-width: 1199px){
       display: flex;
@@ -212,12 +214,12 @@ footer {
    @media screen and (max-width: 767px){
    display: block;
    width: 100%;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
       }
    @media screen and (min-width: 768px) and (max-width: 1199px){
    display: block;
    width: 450px;
-         
+   margin-bottom: 20px;    
    }      
 
    @media screen and (min-width: 1200px){

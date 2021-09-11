@@ -50,19 +50,17 @@
             </div>
          </nav>
          <div>
-            <button class="button__stand--burger" data-burger-open>
+            <button class="button__stand--burger" aria-controls="mobile-menu" aria-expanded="false" data-burger-open>
                <svg width="40" height="40">
                   <use href="./images/icons.svg#icon-menu_40px"></use>
                </svg>
             </button>
          </div>
-         <!-- mobil-burger -->
-
-
-
       </div>
 
-      <div class="backdrop__burger is-hiden" data-burger>
+      <!-- mobil-burger -->
+
+      <div class="backdrop__burger is-hiden" id="mobile-menu" data-burger>
          <div class="burger__wind">
             <div class="burger__close">
                <button type="button" class="btn-burger" data-burger-close>
@@ -77,6 +75,7 @@
                      <li class="burger__item"><a href="" class="burger__click site__current">Студия</a></li>
                      <li class="burger__item"><a href="./portfolio.html" class="burger__click">Портфолио</a></li>
                      <li class="burger__item"><a href="" class="burger__click">Контакты</a></li>
+                  </ul>
                </div>
                <div class="burger__contact">
                   <div class="burger__tell">
@@ -91,17 +90,17 @@
                      <ul class="burger__media list">
                         <li class="burger__logo">
                            <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Instagram</a>
-                           <p class="media"></p>
+                           <p class="media__tine"></p>
                         </li>
 
                         <li class="burger__logo">
                            <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Twitter</a>
-                           <p class="media"></p>
+                           <p class="media__tine"></p>
                         </li>
 
                         <li class="burger__logo">
                            <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Facebook</a>
-                           <p class="media"></p>
+                           <p class="media__tine"></p>
                         </li>
 
                         <li class="burger__logo">
