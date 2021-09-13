@@ -12,4 +12,5 @@
       document.body.classList.toggle("burger-open");
       refs.modal.classList.toggle('is-hiden');
    }
+
 })();

@@ -17,10 +17,9 @@
 .backdrop__burger.is-hiden{
 @media screen and (max-width:767px){
 visibility: hidden;
-pointer-events: none;   
+pointer-events: none;  
 }
 opacity: 0;
-
 }
 
 .backdrop__burger.is-hiden .burger__wind {

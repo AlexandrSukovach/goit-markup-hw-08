@@ -28,7 +28,9 @@
 
 .our-team__card {
 @media screen and (max-width: 767px){
-   width: 270px;
+   max-width: 450px;
+   width: 100%;
+   &:not(:last-child){margin-bottom: 30px;}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
    width: calc((100%-4*15px )/ 2);
@@ -46,6 +48,11 @@
       
 }
 
+.our-team__img{
+display: block;
+width: 100%;
+height: auto;
+}
 
 .our-team__desc {
    padding-top: 30px;
