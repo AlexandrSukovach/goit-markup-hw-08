@@ -6,14 +6,13 @@ body {
    font-family: $fontFamilyRoboto;
    font-weight: $fontWeight400;
    letter-spacing: $letterSpacing03;
-  
 }
 
 body.burger-open{
    @media screen and (max-width: 768px){
-    overflow: hidden;
+   overflow: hidden;
    }
-
+   
 }
 
 .container {
@@ -54,6 +53,7 @@ a {
 img {
    display: block;
 }
+
 button {
    font-family: inherit;
    cursor: pointer;
