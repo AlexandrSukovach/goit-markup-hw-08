@@ -1,7 +1,6 @@
 /*------------our team-------------- */
 .our-team {
    background-color: $buttonBackColor;
-
 }
 
 .our-team__title {
@@ -16,14 +15,12 @@
    @media screen and (max-width: 767px){
    flex-direction: column;
    align-items: center;
-   
    }
    @media screen and (min-width: 768px) and (max-width: 1199px){
       flex-wrap: wrap;
       justify-content: center;
       margin: -15px;
    }
-
 }
 
 .our-team__card {
@@ -44,16 +41,11 @@
 @media screen and (min-width: 1200px){
    &:not(:last-child){margin-right: 30px;}
    width: 270px;
-}
-      
+}     
 }
 
 
 .our-team__img{
-@media screen and (max-width: 768px){
-
-} 
-display: block;
 width: 100%;
 height: auto;
 }

@@ -1741,7 +1741,6 @@ footer {
 }
 
 .our-team__img {
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -1943,7 +1942,6 @@ footer {
 }
 
 .portfolio__img {
-  display: block;
   width: 100%;
   height: auto;
 }

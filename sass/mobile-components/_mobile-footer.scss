@@ -1,6 +1,5 @@
 /* ---------------footer------------ */
 footer {
-
    background-color: $sectionBackground;
 }
 
@@ -25,8 +24,6 @@ footer {
 }
 
 .footer__box{
-   
-   
    @media screen and (max-width: 767px){
       display: flex;
       flex-direction: column;
@@ -74,7 +71,6 @@ footer {
    @media screen and (min-width: 1200px){
       margin-right: 70px;
       }
-
 }
 
 .footer__location {
@@ -134,7 +130,6 @@ footer {
 
 .footer__site {
    display: flex;
-
 }
 
 .icon__social--gray {
@@ -172,7 +167,6 @@ footer {
    @media screen and (max-width: 767px){
    text-align: center;
       }
-   
    color: $accentColor;
    @extend %std-modal;
    text-transform: uppercase;
@@ -200,13 +194,11 @@ footer {
    @media screen and (max-width: 767px){
    flex-direction: column;
    align-items: center;
-   // max-width: 450px;
    }
    @media screen and (min-width: 768px) and (max-width: 1199px){
       display: flex;
       flex-direction: column;
       align-items: center;
-      
    }      
 }
 
@@ -221,7 +213,6 @@ footer {
    width: 450px;
    margin-bottom: 20px;    
    }      
-
    @media screen and (min-width: 1200px){
       width: 358px;            
    }
