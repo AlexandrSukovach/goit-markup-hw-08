@@ -42,6 +42,9 @@
       margin: 15px;
       width: 354px;
       }
+      @media screen and (max-width: 768px){
+         &:not(:last-child){margin-bottom: 30px;}
+      }
 }
 
 .declaration__title{
@@ -60,5 +63,5 @@
    color: $primaryTextColor;
    font-size: $fontSize14;
    line-height: $lineHeight171;
+   
 }
-

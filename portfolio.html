@@ -49,7 +49,8 @@
             </div>
          </nav>
          <div>
-            <button class="button__stand--burger" aria-controls="mobile-menu" aria-expanded="false" data-burger-open>
+            <button class="button__stand--burger menu-toggle js-open-menu" aria-controls="mobile-menu"
+               aria-expanded="false">
                <svg width="40" height="40">
                   <use href="./images/icons.svg#icon-menu_40px"></use>
                </svg>
@@ -57,61 +58,6 @@
          </div>
       </div>
 
-      <!-- mobil-burger -->
-
-      <div class="backdrop__burger is-hiden" id="mobile-menu" data-burger>
-         <div class="burger__wind">
-            <div class="burger__close">
-               <button type="button" class="btn-burger" data-burger-close>
-                  <svg width="40" height="40" class="btn-burger__icon">
-                     <use href="./images/icons.svg#icon-close_40px"></use>
-                  </svg>
-               </button>
-            </div>
-            <div class="burger__link">
-               <div class="burger__nav">
-                  <ul class="burger__site list">
-                     <li class="burger__item"><a href="./index.html" class="burger__click ">Студия</a></li>
-                     <li class="burger__item"><a href="" class="burger__click site__current">Портфолио</a></li>
-                     <li class="burger__item"><a href="" class="burger__click">Контакты</a></li>
-                  </ul>
-               </div>
-               <div class="burger__contact">
-                  <div class="burger__tell">
-                     <ul class="burger__auth list">
-                        <li class="burger__meta"><a href="tel:+380961111111" class="meta__tell">+38 096 111 11 11</a>
-                        </li>
-                        <li class="burger__meta"><a href="mailto:info@devstudio.com"
-                              class="meta__maill">info@devstudio.com</a></li>
-                     </ul>
-                  </div>
-                  <div class="burger__social">
-                     <ul class="burger__media list">
-                        <li class="burger__logo">
-                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Instagram</a>
-                           <p class="media__tine"></p>
-                        </li>
-
-                        <li class="burger__logo">
-                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Twitter</a>
-                           <p class="media__tine"></p>
-                        </li>
-
-                        <li class="burger__logo">
-                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Facebook</a>
-                           <p class="media__tine"></p>
-                        </li>
-
-                        <li class="burger__logo">
-                           <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-                        </li>
-                     </ul>
-                  </div>
-
-               </div>
-            </div>
-         </div>
-      </div>
    </header>
 
    <!-- portfolio -->
@@ -346,6 +292,55 @@
 
    </main>
 
+   <!-- mobil-menu -->
+
+   <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-burger js-close-menu">
+         <svg width="40" height="40" class="btn-burger__icon">
+            <use href="./images/icons.svg#icon-close_40px"></use>
+         </svg>
+      </button>
+
+      <div class="burger__link">
+         <div class="burger__nav">
+            <ul class="burger__site list">
+               <li class="burger__item"><a href="./index.html" class="burger__click">Студия</a></li>
+               <li class="burger__item"><a href="" class="burger__click site__current">Портфолио</a>
+               </li>
+               <li class="burger__item"><a href="" class="burger__click">Контакты</a></li>
+            </ul>
+         </div>
+         <div class="burger__contact">
+            <div class="burger__tell">
+               <ul class="burger__auth list">
+                  <li class="burger__meta"><a href="tel:+380961111111" class="meta__tell">+38 096 111 11 11</a>
+                  </li>
+                  <li class="burger__meta"><a href="mailto:info@devstudio.com"
+                        class="meta__maill">info@devstudio.com</a></li>
+               </ul>
+            </div>
+            <div class="burger__social">
+               <ul class="burger__media list">
+                  <li class="burger__logo">
+                     <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Instagram</a>
+                     <p class="media__tine"></p>
+                  </li>
+                  <li class="burger__logo">
+                     <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Twitter</a>
+                     <p class="media__tine"></p>
+                  </li>
+                  <li class="burger__logo">
+                     <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">Facebook</a>
+                     <p class="media__tine"></p>
+                  </li>
+                  <li class="burger__logo">
+                     <a href="" class="icon__line" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
 
 
    <!-- footer -->
@@ -415,7 +410,10 @@
          </div>
       </div>
    </footer>
-   <script src="./js/mobil-menu.js"></script>
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+   <script defer src="js/mobile-menu.js"></script>
 
 </body>
 

@@ -74,8 +74,10 @@ height: auto;
    justify-content: center;
 }
 
-.social__logo:not(:last-child) {
-   margin-right: 10px;
+.social__logo{
+   &:not(:last-child){
+      margin-right: 10px;  
+   }
 }
 
 .icon__social--white {
