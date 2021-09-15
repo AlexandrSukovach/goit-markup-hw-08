@@ -48,11 +48,23 @@
 .our-team__img{
 width: 100%;
 height: auto;
+@media screen and (min-width: 480px){
+height: 460px;
+}     
+@media screen and (min-width: 768px) and (max-width: 1199px){
+height: 374px;
+}
+@media screen and (min-width: 1200px){
+   height: 260px;
+   }     
 }
 
 .our-team__desc {
    padding-top: 30px;
    padding-bottom: 30px;
+   @media screen and (max-width: 1199px){
+   padding-bottom: 26px;
+      }
 }
 
 .our-team__lable {

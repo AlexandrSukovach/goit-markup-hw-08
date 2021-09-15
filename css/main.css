@@ -1503,9 +1503,33 @@ footer {
   height: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .our-team__img {
+    height: 460px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .our-team__img {
+    height: 374px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team__img {
+    height: 260px;
+  }
+}
+
 .our-team__desc {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .our-team__desc {
+    padding-bottom: 26px;
+  }
 }
 
 .our-team__lable {
