@@ -115,9 +115,10 @@
    width: 1px;
    height: 25px;
    background-color: #21212133;
-   border: 1px solid ;
-
+   border: 1px solid #21212133;
+   
 }
+
 .icon__line{
 font-size: $fontSize18;
 font-weight: $fontWeight500;
@@ -127,6 +128,9 @@ letter-spacing: 0.02em;
 color: $logoColor;
 &:not(:last-child){
    margin-right: 10px;
+}
+@media screen and (max-width:480px){
+   font-size: $fontSize12; 
 }
 }
 

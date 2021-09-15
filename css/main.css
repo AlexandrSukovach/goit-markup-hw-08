@@ -2085,7 +2085,7 @@ footer {
   width: 1px;
   height: 25px;
   background-color: #21212133;
-  border: 1px solid;
+  border: 1px solid #21212133;
 }
 
 .icon__line {
@@ -2099,6 +2099,12 @@ footer {
 
 .icon__line:not(:last-child) {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .icon__line {
+    font-size: 12px;
+  }
 }
 
 .burger__media {
