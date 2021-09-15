@@ -94,6 +94,9 @@
    line-height: $lineHeight118;
    letter-spacing: $letterSpacing02;
    color:$logoColor;
+   @media screen and (max-width:480px){
+      font-size: $fontSize26;  
+   }
 }
 
 .meta__maill{
