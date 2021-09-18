@@ -49,10 +49,6 @@
    }
 }
 
-// .portfolio__box{
-//    display: flex;
-//    flex-grow: 1;
-// }
 .portfolio__link {
    display: flex;
    flex-direction: column;
@@ -66,7 +62,7 @@
    border-right: 1px solid #EEEEEE;
    border-bottom: 1px solid #EEEEEE;
    border-bottom: 1px solid #EEEEEE;
-   // height: 100%;
+   height: 100%;
 }
 
 
@@ -96,11 +92,6 @@
    
 }
 
-// .portfolio__text--one{
-//    @media screen and (min-width:768px) and (max-width:1199px){
-//       padding-bottom: 56px;
-//    }
-// }
 
 .portfolio__title {
    color: $titleTextColor;

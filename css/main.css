@@ -1686,6 +1686,7 @@ footer {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
+  height: 100%;
 }
 
 .portfolio__link:hover, .portfolio__link:focus {
