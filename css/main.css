@@ -1670,15 +1670,6 @@ footer {
   }
 }
 
-.portfolio__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
 .portfolio__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1744,12 +1735,6 @@ footer {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .portfolio__text--one {
-    padding-bottom: 56px;
-  }
 }
 
 .portfolio__title {
