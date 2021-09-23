@@ -3,7 +3,6 @@
 .page-header {
    border-bottom: 1px solid #ECECEC;
    position: relative;
-   
 }
 
 .page-header__comtent {
@@ -57,7 +56,9 @@
    align-items: center;
    width: 100%;
 }
+
 /*------------ Sitenav---------- */
+
 .page-header__site {
    @media screen and (min-width:768px) {
       display: flex;   
@@ -90,7 +91,6 @@
       left: 0;
       bottom: -1px;}
 }
-
 
 .page-header__item:not(:last-child) {
    @media screen and (min-width:768px) {
@@ -160,6 +160,7 @@
    &:hover,
    &:focus{color: $logoColor;}
 }
+
 .button__stand--burger{
    background-color:$accentColor;
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

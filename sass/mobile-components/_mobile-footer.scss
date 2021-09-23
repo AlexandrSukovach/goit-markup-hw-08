@@ -38,7 +38,6 @@ footer {
    display: flex;
    align-items: baseline;
    } 
-
 }
 
 
@@ -51,7 +50,6 @@ footer {
    letter-spacing: $letterSpacing03;
    & span{color: $accentColor;
    }
-
 }
 
 .footer__address {
@@ -87,7 +85,6 @@ footer {
    flex-direction: column;
    align-items: center;
       }
-
 }
 
 .footer__map {
@@ -118,7 +115,6 @@ footer {
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
    &:focus{color: $logoColor;}
-   
 }
 
 .footer__title {
@@ -172,7 +168,6 @@ footer {
    text-transform: uppercase;
    margin-bottom: 20px;
    cursor: pointer;
-   
 }
 
 .button__standart--footer {
@@ -228,5 +223,4 @@ footer {
       border-color: rgba(255, 255, 255, 0.3);
       color: $accentFooterColor;}
    &::placeholder{color: $accentFooterColor;}
-   
 }

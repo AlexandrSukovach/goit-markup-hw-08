@@ -11,8 +11,7 @@ body {
 body.burger-open{
    @media screen and (max-width: 768px){
    overflow: hidden;
-   }
-   
+   } 
 }
 
 .container {
@@ -29,7 +28,6 @@ body.burger-open{
    @media screen and (min-width: 1200px){
       width: 1200px; 
    }
-
 }
 
 .section {
@@ -39,7 +37,6 @@ body.burger-open{
    padding-top: 94px;
    padding-bottom: 94px;   
    }
-
 }
 
 .list {

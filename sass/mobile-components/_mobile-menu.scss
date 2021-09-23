@@ -38,7 +38,6 @@
    &::-webkit-scrollbar{
       width: 0;
    }
-
 }
 
 .menu-container.is-open {
@@ -49,7 +48,6 @@
    @media screen and (min-width:768px){
       display: none;
    }
-   
 }
 
 .menu-container .menu-burger {
@@ -71,7 +69,6 @@
    &.site__current{
       color: $logoColor;
    }
-
 }
 
 .burger__item:not(:last-child){
@@ -111,12 +108,12 @@
 .burger__social{
    display: flex;
 }
+
 .media__tine{
    width: 1px;
    height: 25px;
    background-color: #21212133;
-   border: 1px solid #21212133;
-   
+   border: 1px solid #21212133; 
 }
 
 .icon__line{
@@ -160,6 +157,7 @@ color: $logoColor;
    flex-direction: column;
    justify-content: space-between;
 }
+
 .burger__nav{
    padding-bottom: 15px;
 }

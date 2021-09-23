@@ -3,7 +3,6 @@
 
 .gallery-custom {
    text-align: center;
-
 }
 
 .reg-custom__title {
@@ -12,6 +11,7 @@
    @extend %title-section;
    margin-bottom: 50px;
 }
+
 .reg-custom__gallery {
    display: flex;
    flex-wrap: wrap;
@@ -26,8 +26,7 @@
    }
    @media screen and (max-width: 1199px){
       margin: -15px;
-      }
-      
+      }  
 }
 
 .reg-custom__client{
