@@ -24,6 +24,7 @@
    <!-- HEADER-studio-sitenav -->
 
    <header class="page-header">
+
       <div class="page-header__comtent">
          <nav class="page-header__nav">
             <a href="" class="logo">Web<span class="logo__text">Studio</span></a>
@@ -65,8 +66,8 @@
 
       <section class="hero">
          <div class="hero__content">
-            <h1 class="hero__title">Эффективные решения<br>
-               для вашего бизнеса</h1>
+            <h2 class="hero__title">Эффективные решения<br>
+               для вашего бизнеса</h2>
             <button class="button__standart button__standart--hero" data-modal-open>
                Заказать услугу
             </button>
@@ -550,6 +551,144 @@
          </div>
       </div>
    </footer>
+
+   <!-- Customer Reviews.html -->
+
+   <section class="customer-reviews section">
+      <!-- скрытый заголовок -->
+      <h1 class="customer-reviews__title visually-hidden">Customer Reviews</h1>
+
+      <div class="customer-reviews__container container">
+         <ul class="reviews__slides list" id="reviews__slides">
+            <li class="reviews__slide  showing">
+               <div class="customer-reviews__wrapper ">
+                  <img class="customer-reviews__img" src="./images/n.tarasov.jpg" alt="personal photo" width="85"
+                     height="85">
+                  <div class="customer-reviews__content">
+                     <div class="customer-reviews__slide">
+                        Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                        Aliquam
+                        sem. In hendrerit nulla quam
+                        nunc,
+                        accumsan congue. Lorem ipsum primis in nibh vel risus.
+                     </div>
+                  </div>
+                  <p class="customer-reviews__name">Emily, Los Angeles</p>
+               </div>
+            </li>
+            <li class="reviews__slide">
+               <div class="customer-reviews__wrapper">
+                  <img class="customer-reviews__img" src="./images/m.ermakov.jpg" alt="personal photo" width="85"
+                     height="85">
+                  <div class="customer-reviews__content">
+                     <div class="customer-reviews__slide">
+                        In hendrerit nulla quam
+                        nunc, accumsan congue.
+                        Lorem ipsum primis in nibh vel risus.
+                        Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                        Aliquam sem.
+                     </div>
+                  </div>
+                  <p class="customer-reviews__name">Bella, Wellington</p>
+               </div>
+            </li>
+            <li class="reviews__slide">
+               <div class="customer-reviews__wrapper">
+                  <img class="customer-reviews__img" src="./images/o.repina.jpg" alt="personal photo" width="85"
+                     height="85">
+                  <div class="customer-reviews__content">
+                     <div class="customer-reviews__slide">
+                        Quisque cursus et, porttitor risus.
+                        Nullam viverra consectetuer.
+                        Aliquam sem. In hendrerit nulla quam
+                        nunc,
+                        accumsan congue. Lorem ipsum primis in nibh vel risus.
+                     </div>
+                  </div>
+                  <p class="customer-reviews__name">Cathy, New York</p>
+               </div>
+            </li>
+         </ul>
+         <div class="reviews__buttoms">
+            <button class="reviews__controls" id="reviews__previous">&lt;</button>
+            <button class="reviews__controls" id="reviews__pause">&#10074;&#10074;</button>
+            <button class="reviews__controls" id="reviews__next">&gt;</button>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- Слайдер отзывов клиентов customer-slider-reviews.js -->
+   <!-- подключерие: customer-slider-reviews.js в папку js,  
+   в текущей папке <script src="../js/customer-slider-reviews.js"></script> -->
+
+   <script>
+      var slides = document.querySelectorAll('#reviews__slides .reviews__slide');
+      var controls = document.querySelectorAll('.reviews__controls');
+      var nextButton = document.getElementById('reviews__next');
+      var previousButton = document.getElementById('reviews__previous');
+      var pauseButton = document.getElementById('reviews__pause');
+
+      for (var i = 0; i < controls.length; i++) {
+         controls[i].style.display = 'inline-block';
+      }
+      var currentSlide = 0;
+      var slideInterval = null;
+      var playing = false;
+
+      if (playing === false) {
+         pauseButton.innerHTML = '&#9658;'; // play character
+      }
+
+      function nextSlide() {
+         goToSlide(currentSlide + 1);
+      }
+
+      function previousSlide() {
+         goToSlide(currentSlide - 1);
+      }
+
+      function goToSlide(n) {
+         slides[currentSlide].className = 'reviews__slide';
+         currentSlide = (n + slides.length) % slides.length;
+         slides[currentSlide].className = 'reviews__slide showing';
+      }
+
+      function pauseSlideshow() {
+         pauseButton.innerHTML = '&#9658;'; // play character
+         playing = false;
+         clearInterval(slideInterval);
+      }
+
+      function playSlideshow() {
+         pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
+         playing = true;
+         slideInterval = setInterval(nextSlide, 2000);
+      }
+
+      pauseButton.onclick = function () {
+         if (playing) {
+            pauseSlideshow();
+         } else {
+            playSlideshow();
+         }
+      };
+
+      nextButton.onclick = function () {
+         pauseSlideshow();
+         nextSlide();
+      };
+
+      previousButton.onclick = function () {
+         pauseSlideshow();
+         previousSlide();
+      };
+   </script>
+
+   <!-- Customer Reviews.html -->
+
+
+
    <script src="./js/modal.js"></script>
    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
